@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5), /* Top gradient color */
+            rgba(0, 0, 0, 0.5)  /* Bottom gradient color */
+        ),
+        url(/images/Banner\ Image.png) no-repeat center center/cover; /* Background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 50px 100px 0px 100px;
+    border-radius: 1%;
+}
+.new-year-messege {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 177px 344px 177px 344px;
+}
