@@ -82,3 +82,24 @@
 .content-3{
     padding-left: 118px;
 }
+.images{
+    height: 450px;
+    width: 424px;
+}
+.image-box{
+    display: flex;
+    gap: 2px;
+    row-gap: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+}
+.footer-element{
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    
+}
+.div1{
+    display: block
+    row-gap: 200px;
+}
