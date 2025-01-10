@@ -18,4 +18,67 @@
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 177px 344px 177px 344px;
+    justify-content: center;
+}
+.hero-2{
+    text-align: center;
+}
+.offer{
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+.hero-3{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5), /* Top gradient color */
+            rgba(0, 0, 0, 0.5)  /* Bottom gradient color */
+        ),
+        url(/images/Vectorrr.png) no-repeat center center/cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        margin: 50px 100px 0px 100px;
+        border-radius: 1%;
+}
+.hero-3-body{
+    display: flex;
+    justify-content: space-between;
+}
+.welcomemessege{
+    color: white;
+    padding-left: 126px;
+    padding-top: 126px;
+}
+.image{
+    padding-right: 138px;
+    padding-top: 68px;
+}
+.hero-4-elements{
+    background-color: bisque;
+    text-align: center;
+    margin: 120px 140px 0px 120px;
+    height: 300px;
+    padding: 100px 386px 0px 385px;
+}
+.btn{
+    background-color: rgb(227, 182, 0);
+    margin-top: 48px;
+    padding: 5px;
+    border-radius: 20%;
+}
+.hero-5{
+    display: flex;
+    margin: 120px 140px 0px 140px;
+}
+.content-1{
+    padding-top: 104px;
+    padding-bottom: 104px;
+    width: 393px;
+}
+.content-2{
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+.content-3{
+    padding-left: 118px;
 }
